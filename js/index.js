@@ -232,7 +232,7 @@ document.getElementById('contactForm').addEventListener('submit', async (event) 
     const message = document.getElementById('message').value;
 
     try {
-        const response = await fetch('http://localhost:5000/api/contact', {
+        const response = await fetch('https://backend-steps-1.onrender.com/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

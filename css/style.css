@@ -211,8 +211,8 @@ a:focus {
 
 .navbar-brand img {
   margin-right: 5px;
-  width: 55px;
-  height: 35px;
+  width: 100px;
+  height: 50px;
 }
 
 .navbar-brand span {
@@ -417,8 +417,8 @@ a:focus {
 .heading {
   text-align: justify; /* Center the heading */
   margin: 0; /* Reset default margins */
-  padding-bottom: 20px; /* Space between heading and typewriter */
-  transform: translate(5%, -90%);
+  padding-bottom: 0px; /* Space between heading and typewriter */
+  /* transform: translate(5%, -90%); */ /*commented to stop the position of STEPS */
 }
 
 .heading h1 {
@@ -458,13 +458,15 @@ a:focus {
 
 /* Typewriter effect styles remain the same */
 .typewriter {
-  display: inline-block;
+  /* display: inline-block; */
   white-space: nowrap;
   overflow: hidden;
-  position: absolute;
-  top: 40%; /* Adjusted to fit below the heading */
+  /* position: absolute; */
+  text-align: center;
+  margin-bottom: 15px;
+  /* top: 40%; Adjusted to fit below the heading
   left: 50%;
-  transform: translate(-45%, -195%);
+  transform: translate(-45%, -195%); */
 }
 
 .typewriter p {
@@ -474,29 +476,32 @@ a:focus {
   font-weight: bold;
   font-family: "Lora", serif;
   margin: 0 auto;
-  letter-spacing: .15em;
-  text-align: justify;
+  letter-spacing: .25em;
+  /* text-align: justify; */
   
 }
 
 .typewriter1 {
-  display: inline-block;
+  /* display: inline-block; */
   white-space: nowrap;
   overflow: hidden;
-  position: absolute;
-  top: 40%; /* Adjusted to fit below the heading */
+  text-align: center;
+  margin-bottom: 30px;
+  /* position: absolute; */
+  /* top: 40%; Adjusted to fit below the heading
   left: 50%;
-  transform: translate(-44.5%, 10%);
+  transform: translate(-44.5%, 10%); */
 }
 
 .register {
-  display: inline-block;
+  /* display: inline-block; */
   white-space: nowrap;
   overflow: hidden;
-  position: absolute;
+  text-align: center;
+  /* position: absolute;
   top: 105%; 
   left: 17.5%;
-  transform: translate(-45%, -195%);
+  transform: translate(-45%, -195%); */
 }
 
 .register button { 
@@ -514,7 +519,7 @@ a:focus {
   font-family: "Lora", serif;
   margin: 0 auto;
   letter-spacing: .15em;
-  text-align: justify;
+  /* text-align: justify; */
   
 }
 
@@ -659,7 +664,7 @@ a:focus {
   font-family: "Lora", serif;
   /* text-transform: uppercase; */
   font-weight: Bold; 
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
 }
 
 
