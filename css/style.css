@@ -211,8 +211,8 @@ a:focus {
 
 .navbar-brand img {
   margin-right: 5px;
-  width: 100px;
-  height: 50px;
+  width: 100%;
+  height: 35px;
 }
 
 .navbar-brand span {
@@ -236,7 +236,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  padding: 0;
+  /* padding: 0; */
   width: 37px;
   height: 42px;
 }
@@ -983,7 +983,7 @@ padding: 0 25px 0 25px;
 }
 
 .service_section .service_container .box .img-box img {
-  /* width: 150px; */
+  width: 150px;
   height: 130px;
 }
 
@@ -1433,7 +1433,7 @@ padding: 0 25px 0 25px;
 
 .blog_section .box .img-box img {
   width: 100%;
-  height: 500px;
+  height: auto; /* changes */
 }
 
 .blog_section .box .detail-box {
@@ -2053,7 +2053,7 @@ padding: 0 25px 0 25px;
 /* end info section */
 
 .form-contact{ 
-  width: 25vw;
+  /* width: 25vw; */
 }
 
 
