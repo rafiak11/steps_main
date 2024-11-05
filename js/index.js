@@ -282,3 +282,4 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('scroll', checkScroll);
   checkScroll(); // Run once on load
 });
+

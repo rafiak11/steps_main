@@ -128,7 +128,7 @@
   .img-box img {
     width: 100%; /* Ensure image is responsive */
     height: auto; /* Maintain aspect ratio */
-    max-width: 641px; /* Limit maximum width */
+    /* max-width: 641px; Limit maximum width */
   }
 } 
 

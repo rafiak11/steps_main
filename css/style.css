@@ -2226,7 +2226,7 @@ padding: 0 25px 0 25px;
   .img-box img {
     width: 100%; /* Ensure image is responsive */
     height: auto; /* Maintain aspect ratio */
-    max-width: 383px; /* Limit maximum width */
+    /* max-width: 383px; Limit maximum width */
   }
 } 
 
@@ -2403,7 +2403,6 @@ padding: 0 25px 0 25px;
 #pathX:hover, #pathY:hover {
   fill: #FF5733; /* Example shine color */
 }
-
 
 
 
